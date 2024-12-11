@@ -1,0 +1,133 @@
+.body{
+    font-family:fantasy;
+    padding: 10px;
+    background-color:black;
+}
+.encabezado1{
+    padding: 200px 60px;
+    text-align: center;
+    background-color: #000000;
+    background-image: url(banner.png); 
+    background-size: 100% 100%;
+}
+.menu{
+    background-color: rgb(177,217,235);
+    overflow:auto;
+}
+.menu a{
+    padding: 10px;
+    float:none;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.slider-frame{
+    width: 600px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+    text-align: center;
+
+}
+.slider-frame ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 16s infinite  alternate ease-in-out;
+}
+.slider-frame li{
+    list-style: none;
+    width: 100%;
+}
+.slider-frame img{
+    width: 100%;
+}
+.menu a:hover{
+    color: white;
+    background-color: #87cefa;
+}
+.menu a.active{
+    background-color:rgb(255,196,191);
+    color: white;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 50pt;
+    -webkit-text-stroke: 0.55px rgb(255, 255, 255);
+}
+.cortes{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(18, 34, 213);
+    font-size: 40pt;
+    align-content: center;
+}
+.content{
+    text-align: center;
+    background-color:white;
+    padding-bottom: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+body{
+    background-image: url(patron-aseo-mascotas-dibujado-mano_23-2150051256.avif);
+    background-size: 100% 100%;
+}
+p{
+    color: #000000;
+}
+@keyframes slide {
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+    
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    95%{margin-left: -300%;}
+}
+html {
+    min-height: 290%;
+    position: relative;
+}
+footer {
+    background-color: rgb(177,217,235);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-bottom:300px ;
+    text-align: center;
+    height: 350px;
+    color: white;
+}
+.fa{
+    padding: 30px;
+    font-size: 40px;
+    width: 50px;
+    text-align:center;
+    text-decoration: none;
+}
+.fa:hover{
+    opacity: 0.3;
+    
+}
+.fa-facebook{
+    background-color: white;
+    color: dodgerblue;
+}
+fa-instagram{
+    background-color: dodgerblue;
+    color: white;
+}
+fa-reddit{
+    background-color: dodgerblue;
+    color: white;
+}
+fa-twitter{
+    background-color: white;
+    color:dodgerblue;
+}
